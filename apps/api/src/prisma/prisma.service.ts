@@ -3,5 +3,5 @@ import { prisma } from '@orbital/db';
 
 @Injectable()
 export class PrismaService {
-  prisma = prisma;
+  client = prisma;
 }
